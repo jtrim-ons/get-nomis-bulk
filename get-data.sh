@@ -21,7 +21,7 @@ cat */*META0.* >> ../../log.txt
 # The perl bit removes DOS line endings https://stackoverflow.com/a/6374360/3347737
 perl -pe 's/\r\n|\n|\r/\n/g' *DATA.CSV > $table.csv
 
-perl -pe 's/\r\n|\n|\r/\n/g' */*DESC0*.CSV | cut -d, -f1,4- | awk 'NR>1' | tr ',' ' ' | while read code name; do
+perl -pe 's/\r\n|\n|\r/\n/g' */*DESC0*.CSV | cut -d, -f1,4- | awk 'NR>1' | sed 's/,/ /' | while read code name; do
     echo $code $name
     sed -i.bak "1s/$code/$name/" $table.csv
 done
