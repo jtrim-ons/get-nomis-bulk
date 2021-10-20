@@ -17,6 +17,7 @@ fi
 cd data/${table}ew_2011_oa
 
 cat */*META0.* >> ../../log.txt
+filename=$(tail -n1 */*META0.* | tr -C [:alnum:] '_' | sed 's/_*$//')
 
 # The perl bit removes DOS line endings https://stackoverflow.com/a/6374360/3347737
 perl -pe 's/\r\n|\n|\r/\n/g' *DATA.CSV > $table.csv
@@ -26,8 +27,8 @@ perl -pe 's/\r\n|\n|\r/\n/g' */*DESC0*.CSV | cut -d, -f1,4- | awk 'NR>1' | sed '
     sed -i.bak "1s/$code/$name/" $table.csv
 done
 
-xsv join code ../../output-areas.csv GeographyCode $table.csv > $table-oa.csv
+xsv join code ../../output-areas.csv GeographyCode $table.csv | xsv select !1 > $table-oa.csv
 
-cp $table-oa.csv ../../tidied-data
+cp $table-oa.csv ../../tidied-data/$filename.csv
 
 echo 'Done!'
