@@ -1,0 +1,46 @@
+KS103EW_Marital_and_civil_partnership_status_All_usual_residents_aged_16_and_over.csv Single=3 Married=4 Civil_partnership=5 Separated=6 Divorced=7 Widowed=8 *=2
+KS105EW_Household_composition_All_households.csv One_person=3+4 One_family=5+6+7+8+9+10+11+12+13 Other=14+15+16+17 *=2
+KS201EW_Ethnic_group_All_usual_residents.csv *=2 White=3+4+5+6 Mixed=7+8+9+10 Asian=11+12+13+14+15 Black=16+17+18 Other=19+20
+KS202EW_National_identity_All_usual_residents.csv *=7 Welsh_only=8 Welsh_and_British=9 Other_Welsh=10 No_Welsh=11
+KS204EW_Country_of_birth_All_usual_residents.csv *=2 England=3 NI=4 Scotland=5 Wales=6 Other=7+8+9+10+11
+KS206EW_Household_language_All_households.csv *=2 All_aged_16+=3 At_least_one_aged_16+=4 None_16+_but_3-15=5 None=6
+KS209EW_Religion_All_usual_residents.csv *=2 Christian=3 Buddhist=4 Hindu=5 Jewish=6 Muslim=7 Sikh=8 Other=9 None_or_not_stated=10+11
+KS301EW_Health_and_provision_of_unpaid_care_All_usual_residents.csv *=2 Very_good=9 Good=10 Fair=11 Bad=12 Very_bad=13
+KS402EW_Tenure_All_households.csv *=2 Owned_outright=3 Owned_with_loan=4 Shared=5 Rented=6+7+8+9 Rent_free=10
+KS403EW__Rooms__bedrooms_and_central_heating__All_households.csv *=2 Does_not_have_central_heating=3 Has_central_heating=4
+KS501EW_Qualifications_and_students_All_usual_residents_aged_16_and_over.csv *=2 No_qualifications=3 Level_1=4 Level_2=5 Apprenticeship=6 Level_3=7 Level_4+=8 Other=9
+KS604EW_Hours_worked_All_usual_residents_aged_16_to_74_in_employment_the_week_before_the_census.csv *=2 Part_time=3+4 Full_time=5+6
+QS101EW_Residence_type_All_usual_residents__Communal_establishments_with_persons_sleeping_rough_identified.csv *=2 Household=3 Communal_establishment=4
+QS104EW_Sex_All_usual_residents.csv *=2 Males=3 Females=4
+QS106EW_Second_address_All_usual_residents.csv *=2 No_second_address=3 Second_address_in_UK=4 Second_address_outside_UK=5
+QS108EW_Living_arrangements_All_usual_residents_aged_16_and_over_in_households.csv *=2 Living_in_a_couple=3 Not_living_in_a_couple=7
+QS112EW_Household_composition___People_All_usual_residents_in_households.csv *=2 One_person_household=3 One_family_only=6 Other_household_types=27
+QS113EW_Household_composition___Households_All_households.csv *=2 One_person_household=3 One_family_only=6 Other_household_types=27
+QS118EW_Families_with_dependent_children_All_families_in_households__All_dependent_children_in_households.csv *=2 No_dependent_children=3 One_dependent_child=4+5+6 Two_dependent_children=7+8+9 Three+_dependent_children=10+11+12
+QS119EW_Households_by_deprivation_dimensions_All_households.csv *=2 Not_deprived_in_any_dimension=3 1_dimension=4 2_dimensions=5 3_dimensions=6 4_dimensions=7
+QS201EW_Ethnic_group_All_usual_residents.csv *=2 White=3+4+5+6 Mixed=7+8+9+10 Asian=11+12+13+14+15 Black=16+17+18 Other=19+20
+QS202EW_Multiple_ethnic_groups_null.csv *=2 One_person_household=3 All_household_members_have_same_ethnic_group=4 Different_ethnic_groups=5+6+7
+QS203EW_Country_of_birth__detailed__All_usual_residents.csv *=2 Europe=3 Africa=33 Middle_East_and_Asia=46 Americas_and_Carribean=64 Antarctica_and_Oceania=73 Other=79
+QS205EW_Proficiency_in_English_All_usual_residents_aged_3_and_over.csv *=2 Main_language_is_English/Welsh=3 Can_speak_..._very_well=4 Can_speak_..._well=5 Cannot_speak_..._well=6 Cannot_speak_...=7
+QS208EW_Religion_All_usual_residents.csv *=2 Christian=3 Buddhist=4 Hindu=5 Jewish=6 Muslim=7 Sikh=8 Other=9 None=10 Not_stated=11
+QS301EW_Provision_of_unpaid_care_All_usual_residents.csv *=2 Provides_no_unpaid_card=3 Provides_1_to_19_hours=4 Provides_20_to_49_hours=5 Provides_50_or_more_hours=6
+QS302EW_General_health_All_usual_residents.csv *=2 Very_good=3 Good=4 Fair=5 Bad=6 Very_bad=7
+QS303EW_Long_term_health_problem_or_disability_All_usual_residents.csv *=2 Activities_limited_a_lot=3 Activities_limited_a_little=4 Activities_not_limited=5
+QS401EW_Accommodation_type___People_All_usual_residents_in_households.csv *=2 House_or_bungalow=4 Flat_maisonette_or_apartment=8 Caravan_etc=12 Shared_dwelling=13
+QS402EW_Accommodation_type___Households_All_households.csv *=2 House_or_bungalow=4 Flat_maisonette_or_apartment=8 Caravan_etc=12 Shared_dwelling=13
+QS403EW_Tenure___People_All_usual_residents_in_households.csv *=2 Owned=3 Shared_ownership=6 Social_rented=7 Private_rented=10 Living_rent_free=15
+QS406EW_Household_size_All_household_spaces_with_at_least_one_usual_resident.csv *=2 1_person=3 2_people=4 3_people=5 4_people=6 5_people=7 More_than_5_people=8+9+10
+QS407EW_Number_of_rooms_All_household_spaces_with_at_least_one_usual_resident.csv *=2 1-2_rooms=3+4 3-4_rooms=5+6 5-6_rooms=7+8 7+_rooms=9+10+11
+QS408EW_Occupancy_rating__rooms__All_households.csv *=2 +2_or_more=3 +1=4 0=5 -1=6 -2_or_less=7
+QS409EW_Persons_per_room___Households_All_households.csv *=2 Up_to_.5=3 0.5_to_1=4 1_to_1.5=5 1.5+=6
+QS411EW_Number_of_bedrooms_All_household_spaces_with_at_least_one_usual_resident.csv *=2 None_or_1=3+4 2=5 3=6 4_or_more=7+8
+QS413EW_Persons_per_bedroom___Households_All_households.csv *=2 Up_to_.5=3 0.5_to_1=4 1_to_1.5=5 1.5+=6
+QS414EW_Persons_per_bedroom___People_All_usual_residents_in_households.csv *=2 Up_to_.5=3 0.5_to_1=4 1_to_1.5=5 1.5+=6
+QS415EW_Central_heating_All_household_spaces_with_at_least_one_usual_resident.csv *=2 No_central_heating=3 Gas_CH=4 Electric_CH=5 Other_CH=6+7+8 Two_or_more_types=9
+QS416EW_Car_or_van_availability_All_households__All_cars_or_vans_in_the_area.csv *=2 No_cars_or_vans=3 1_car_or_van=4 2_cars_or_vans=5 3_or_more_cars_or_vans=6+7
+QS501EW_Highest_level_of_qualification_All_usual_residents_aged_16_and_over.csv *=2 No_quals=3 Level_1=4 Level_2=5 Apprenticeship=6 Level_3=7 Level_4=8 Other=9
+QS601EW_Economic_activity_All_usual_residents_aged_16_to_74.csv *=2 Economically_active=3 Economically_inactive=12
+QS611EW_Approximated_social_grade_All_Household_Reference_Persons_aged_16_to_64.csv *=2 Approx_AB=3 Approx_C1=4 Approx_C2=5 Approx_DE=6
+QS701EW_Method_of_travel_to_work_All_usual_residents_aged_16_to_74.csv *=2 Car_or_van=9 Bike_or_foot=11+12 Other=3+4+5+6+7+8+10+13 Not_in_employment=14
+QS801EW_Year_of_arrival_in_UK_All_usual_residents.csv *=2 Born_in_UK=3 Not_born_in_UK=4+5+6+7+8+9+10+11+12+13+14
+QS803EW_Length_of_residence_in_the_UK_All_usual_residents.csv *=2 Born_in_UK=3 Resident_in_UK_<2_years=4 Resident_in_UK_2-5_years=5 Resident_in_UK_5+_years=6+7
