@@ -2,10 +2,7 @@
 
 set -eu -o pipefail
 
-echo "#!/bin/bash" > generated-recode-script.sh
-echo "set -eu -o pipefail" >> generated-recode-script.sh
-echo "mkdir -p recoded-data" >> generated-recode-script.sh
-chmod u+x generated-recode-script.sh
+rules_filename=$1
 
 ls tidied-data | head -n5 | while read f; do
     echo
@@ -21,7 +18,7 @@ ls tidied-data | head -n5 | while read f; do
         read -r -p "Are you happy with this?" response < /dev/tty
         if [[ "$response" =~ ^([yY]) ]]
         then
-            echo "python3 recode.py $categories < tidied-data/$f > recoded-data/$f" >> generated-recode-script.sh
+            echo "$f $categories" >> $rules_filename
             break
         fi
         done
