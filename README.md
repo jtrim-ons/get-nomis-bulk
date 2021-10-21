@@ -11,5 +11,4 @@ for example KS402EW (Tenure).  Then run
 This will get the data and put a CSV in a newly-created `tidied-data` directory.  A
 file `log.txt` will contain a small amount of information about what has been downloaded.
 
-The script is really unreliable! For example, it doesn't work for the Industry table
-because some industries have commas in their names.
+The script is really unreliable!
