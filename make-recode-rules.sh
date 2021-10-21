@@ -7,7 +7,7 @@ rules_filename=$1
 rm -f $rules_filename
 touch $rules_filename
 
-ls tidied-data | head -n5 | while read f; do
+ls tidied-data | while read f; do
     echo
     echo $f
     xsv headers tidied-data/$f
